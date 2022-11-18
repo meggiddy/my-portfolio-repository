@@ -35,3 +35,51 @@ p.about {
     width: 400px;
     margin: 0 auto;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    border: 2px solid white;
+    justify-content: space-between;
+}
+nav li a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: white;
+}
+nav li a:hover {
+    background-color: rgb(158, 148, 138);
+    border: none;
+}
+#rotate-opposite {
+    transform-origin: center right;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -160px;
+    bottom: -250px;
+    font-size: 50px;
+}
+#rotate-lower {
+    transform-origin: center right;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 30px;
+    bottom: -900px;
+    font-size: 50px;
+}
+#projects {
+    min-height: 300px;
+}
+#contact {
+    min-height: 380px;
+}
+#projects p {
+    margin-left: 150px;
+    margin-top: 70px;
+}
