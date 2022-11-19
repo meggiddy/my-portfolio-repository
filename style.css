@@ -1,11 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Gilda+Display);
+* {box-sizing:border-box;}
+
 body {
     background-color: rgb(201,189,177);
     font-family: "Gilda Display";
     color: white;
-}   
+    overflow-x: hidden;
+    background-image:url(./images/arches.png);
+}  
 
-#my-header {
+p {
+    font-weight: bold;
+}
+
+#my-homepage {
     font-size: 50px;
     text-align: center;
     padding-top: 50px;
@@ -19,20 +27,48 @@ h2 {
     transform: rotate(90deg);
     position: absolute;
     right: 30px;
-    bottom: 20px;
+    bottom: -180px;
     font-size: 50px;
+    border-bottom: 2px solid white;
+
 }
 .my-photo {
     display: block;
-    width: 300px;
+    width: 500px;
     text-align: center;
     margin: 40px auto;
     border: 10px solid white;
+    max-height: 400px;
 }
+
+.Containers {
+    flex-shrink: 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+button.back, button.next {
+    cursor: pointer;
+}
+#buttons{
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+}
+
 p.my-about {
     text-align: center;
-    width: 400px;
+    width: 550px;
     margin: 0 auto;
+    border-bottom: 2px solid white;
+    padding-bottom: 30px;
 }
 #my-nav ul {
     list-style-type: none;
@@ -61,33 +97,39 @@ p.my-about {
     transform: rotate(-90deg);
     position: absolute;
     left: -160px;
-    bottom: -250px;
+    bottom: -560px;
     font-size: 50px;
+    border-bottom: 2px solid white;
+
 }
 #my-rotate-lower {
     transform-origin: center right;
     transform: rotate(90deg);
     position: absolute;
     right: 30px;
-    bottom: -1030px;
+    bottom: -1535px;
     font-size: 50px;
+    border-bottom: 2px solid white;
 }
 #my-projects {
-    min-height: 300px;
+    min-height: 500px;
+    margin: 0 auto; 
+    width: 400px;
 }
 #my-contact {
-    min-height: 380px;
+    min-height: 500px;
 }
 #my-projects p {
-    margin-left: 150px;
     margin-top: 70px;
     text-align: center;
 }
 #my-projects img {
     border: none;
-    width: 200px;
+    width: 100%;
     text-align: center;
-    margin: 15px 550px;
+    margin: 15px auto;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
 }
 #my-footer {
     text-align: center;
@@ -95,4 +137,19 @@ p.my-about {
 }
 div#my-contact{
     text-align: center;
+    border-bottom: 2px solid white;
+}
+div#my-icons{
+    margin-top: 30px;
+}
+div#my-icons a{
+    color: rgb(128, 0, 128);
+}
+div#my-icons a:hover{
+    color: rgb(218, 7, 218);
+}
+div.card{
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
 }

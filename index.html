@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head> 
-    <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/3d67e82c79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>My Website</title>
   </head>
   <body>
-    <h1 id="my-header">MAGGIE MURIITHI</h1>
+    <h1 id="my-homepage">MAGGIE MURIITHI</h1>
     
     <div id="my-container">
       <nav id="my-nav">
         <ul>
-          <li><a href="#my-header">Home</a></li>
+          <li><a href="#my-homepage">Home</a></li>
           <li><a href="#my-about">About Me</a></li>
           <li><a href="#my-projects">Projects</a></li>
           <li><a href="#my-contact">Contact</a></li>
         </ul>
       </nav>
       <div id="my-about">
-        <div class="my-img-container"></div>
-          <h1 id="my-rotate">ABOUT ME</h1>
-          <img class="my-photo" src="./images/isssamee.jpg" alt="Its me!" />
+        <div class="my-img-container">
+            <h1 id="my-rotate">ABOUT ME</h1>
+            <div class="slideshow-container">
+              <div class="Containers">
+                <img class="my-photo" src="./images/isssamee.jpg" alt="Its me!" />
+              </div>
+            
+              <div class="Containers">
+                <img class="my-photo" src="./images/issme.jpg">
+              </div>
+            
+              <div class="Containers">
+                <img class="my-photo" src="./images/reidlingenme.JPG" >
+              </div>
+
+              <div class="Containers">
+                <img class="my-photo" src="./images/stanberg.jpg" >
+              </div>
+            </div>
+           <!-- Back and forward buttons -->
+            <div id="buttons">
+                <button class="back"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+                <button class="next"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+        </div>
+          <br>
           <p class="my-about">
             Exceptionally creative and dependable Entry Level Software Developer with a stellar customer service record and superb work ethic. Broadly and deeply knowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction and maintenance. Highly adept at conveying complex technical information to a variety of professional and lay audiences in a clear and understandable manner.
+            <br>
+            When I'm not coding, I enjoy going on Motorbike rides, Traveling, Cooking and Spending time with family.
           </p>
         </div>
         <br>
@@ -35,20 +60,19 @@
         <br>
         <div id="my-contact">
           <h1 id="my-rotate-lower">CONTACT ME</h1>
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 20rem;">
             <div class="card-body">
-              <h5 class="card-title">Reach Out to Me</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h2 class="card-title">Reach Out to Me!</h2>
+              <h4 class="card-subtitle">On my Socials or Email</h4>
+              <h3 class="card-text">Click the below icons.</h3>
             </div>
           </div>
           <div id="my-icons">
-            <a href="mailto:margaret.muriithi@student.moringaschool.com"><i class="fa-solid fa-envelope fa-2xl"></i></a>
-            <a href="https://www.linkedin.com/in/maggie-muriithi/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-            <a href="https://github.com/meggiddy"><i class="fa-brands fa-github fa-2xl"></i></a>
-            <a href="https://twitter.com/Mimamitchelle"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+            <a href="https://www.instagram.com/p/ClIsLq0tzwo/?igshid=MDJmNzVkMjY"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+            <a href="mailto:margaret.muriithi@student.moringaschool.com"><i class="fa-solid fa-envelope fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/maggie-muriithi/"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+            <a href="https://github.com/meggiddy"><i class="fa-brands fa-github fa-3x"></i></a>
+            <a href="https://twitter.com/Mimamitchelle"><i class="fa-brands fa-twitter fa-3x"></i></a>
           </div>     
         </div>
         <br>
