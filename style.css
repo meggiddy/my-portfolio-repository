@@ -3,10 +3,9 @@ body {
     background-color: rgb(201,189,177);
     font-family: "Gilda Display";
     color: white;
-
 }   
 
-#header {
+#my-header {
     font-size: 50px;
     text-align: center;
     padding-top: 50px;
@@ -15,7 +14,7 @@ h2 {
     text-align: center;
     font-size: 20px;
 }
-#rotate {
+#my-rotate {
     transform-origin: center right;
     transform: rotate(90deg);
     position: absolute;
@@ -23,41 +22,41 @@ h2 {
     bottom: 20px;
     font-size: 50px;
 }
-img {
+.my-photo {
     display: block;
     width: 300px;
     text-align: center;
     margin: 40px auto;
     border: 10px solid white;
 }
-p.about {
+p.my-about {
     text-align: center;
     width: 400px;
     margin: 0 auto;
 }
-nav ul {
+#my-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
-nav li {
+#my-nav li {
     display: inline-block;
     border: 2px solid white;
     justify-content: space-between;
 }
-nav li a{
+#my-nav li a{
     display: block;
     text-align: center;
     padding: 16px;
     text-decoration: none;
     color: white;
 }
-nav li a:hover {
+#my-nav li a:hover {
     background-color: rgb(158, 148, 138);
     border: none;
 }
-#rotate-opposite {
+#my-rotate-opposite {
     transform-origin: center right;
     transform: rotate(-90deg);
     position: absolute;
@@ -65,21 +64,35 @@ nav li a:hover {
     bottom: -250px;
     font-size: 50px;
 }
-#rotate-lower {
+#my-rotate-lower {
     transform-origin: center right;
     transform: rotate(90deg);
     position: absolute;
     right: 30px;
-    bottom: -900px;
+    bottom: -1030px;
     font-size: 50px;
 }
-#projects {
+#my-projects {
     min-height: 300px;
 }
-#contact {
+#my-contact {
     min-height: 380px;
 }
-#projects p {
+#my-projects p {
     margin-left: 150px;
     margin-top: 70px;
+    text-align: center;
+}
+#my-projects img {
+    border: none;
+    width: 200px;
+    text-align: center;
+    margin: 15px 550px;
+}
+#my-footer {
+    text-align: center;
+    margin: 50px;
+}
+div#my-contact{
+    text-align: center;
 }

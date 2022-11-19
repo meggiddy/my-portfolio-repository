@@ -2,40 +2,58 @@
 <html lang="en">
   <head> 
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/3d67e82c79.js" crossorigin="anonymous"></script>
     <title>My Website</title>
   </head>
   <body>
-    <h1 id="header">MAGGIE MURIITHI</h1>
+    <h1 id="my-header">MAGGIE MURIITHI</h1>
     
-    <div id="container">
-      <nav>
+    <div id="my-container">
+      <nav id="my-nav">
         <ul>
-          <li><a href="#header">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#my-header">Home</a></li>
+          <li><a href="#my-about">About Me</a></li>
+          <li><a href="#my-projects">Projects</a></li>
+          <li><a href="#my-contact">Contact</a></li>
         </ul>
       </nav>
-      <div id="about">
-        <div class="img-container"></div>
-          <h1 id="rotate">ABOUT ME</h1>
-          <img src="./images/isssamee.jpg" alt="Its me!" />
-          <p class="about">
+      <div id="my-about">
+        <div class="my-img-container"></div>
+          <h1 id="my-rotate">ABOUT ME</h1>
+          <img class="my-photo" src="./images/isssamee.jpg" alt="Its me!" />
+          <p class="my-about">
             Exceptionally creative and dependable Entry Level Software Developer with a stellar customer service record and superb work ethic. Broadly and deeply knowledgeable in a wide variety of computer languages as well as the principles and techniques of website construction and maintenance. Highly adept at conveying complex technical information to a variety of professional and lay audiences in a clear and understandable manner.
           </p>
         </div>
-        <div id="projects">
-          <h1 id="rotate-opposite">PROJECTS</h1>
-          <p>Some of the projects I have worked on include:</p>
+        <br>
+        <div id="my-projects">
+          <h1 id="my-rotate-opposite">PROJECTS</h1>
+          <p>I started self teaching Software Development when I missed the July Moringa Deadline. Being that I am relatively new to Software Engineering, I have not worked on any projects except for practice. I have however grasped most concepts of the below.</p>
+          <img src="./images/html-javascript-3.png" alt="HTML-logo"/>
+          <img src="./images/React-logo.png" alt="React-logo"/>
         </div>
-        <div id="contact">
-          <h1 id="rotate-lower">CONTACT ME</h1>
-          <p>Email</p>
-          <p>LinkedIn</p>
-          <p>GitHub</p>
+        <br>
+        <div id="my-contact">
+          <h1 id="my-rotate-lower">CONTACT ME</h1>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Reach Out to Me</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+          <div id="my-icons">
+            <a href="mailto:margaret.muriithi@student.moringaschool.com"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+            <a href="https://www.linkedin.com/in/maggie-muriithi/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a href="https://github.com/meggiddy"><i class="fa-brands fa-github fa-2xl"></i></a>
+            <a href="https://twitter.com/Mimamitchelle"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+          </div>     
         </div>
-        <div id="footer">
-          @<i class="fab fa-copyright">Made by Maggie. 2022. Moringa School.</i>
+        <br>
+        <div id="my-footer">
+          <p>@ Made by Maggie. 2022. Moringa School.</p>
         </div>
       </div>
     </div>
